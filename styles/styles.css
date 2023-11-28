@@ -1,0 +1,68 @@
+:root {
+  /* Colors */
+  --dark-background-color: #1f2937;
+  --hero-main-text-color: #f9faf8;
+  --hero-secondary-text-color: #e5e7eb;
+  --header-logo-text-color: #f9faf8;
+  --button-color: #3882f6;
+  --info-header-text-color: #1f2937;
+  --card-border-color: #3882f6;
+  --quote-section-background-color: #e5e7eb;
+  --quote-text-color: #1f2937;
+  --cta-background-color: #3882f6;
+  --cta-color: #e5e7eb;
+
+  /* Font Sizes */
+  --hero-main-text-size: 48px;
+  --hero-secondary-text-size: 18px;
+  --header-logo-text-size: 24px;
+  --info-header-text-size: 36px;
+  --quote-text-size: 36px;
+  --quote-author-size: 24px;
+
+  /* Font Styles */
+  --hero-main-text-weight: bolder;
+  --info-header-text-weight: bolder;
+  --quote-text-weight: lighter;
+  --quote-text-style: italic;
+  --quote-author-weight: bolder;
+}
+
+/* Layout */
+body {
+  max-width: 1440px;
+  max-height: 1912px;
+  height: 1300px;
+}
+
+/* Header */
+header,
+footer {
+  height: 5%;
+  background-color: var(--dark-background-color);
+  color: var(--header-logo-text-color);
+  line-height: 4.25em;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-logo {
+  width: 35%;
+  font-size: var(--header-logo-text-size);
+  color: var(--header-logo-text-color);
+  font-size: var(--header-logo-text-size);
+}
+
+.links {
+  width: 35%;
+  display: flex;
+  color: var(--hero-secondary-text-color);
+  font-size: var(--hero-secondary-text-size);
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
