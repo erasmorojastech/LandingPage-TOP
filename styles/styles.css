@@ -155,3 +155,35 @@ figcaption {
   text-align: center;
   font-size: 1.5rem;
 }
+
+/* Quote Section */
+.quote-section, .quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-section {
+  height: 25%;
+  background-color: var(--quote-section-background-color);
+}
+
+.quote {
+  width: 70%;
+  flex-direction: column;
+}
+
+.quote-text {
+  text-align: justify;
+  color: var(--quote-text-color);
+  font-size: var(--quote-text-size);
+  font-weight: var(--quote-text-weight);
+  font-style: var(--quote-text-style);
+}
+
+.quote-author {
+  align-self: flex-end;
+  color: var(--quote-text-color);
+  font-size: var(--quote-author-size);
+  font-weight: var(--quote-author-weight);
+}
