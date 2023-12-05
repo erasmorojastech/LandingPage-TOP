@@ -15,4 +15,4 @@ This project is created using:
 In progress
 
 ## Live Preview
-[Landing Page](https://erasmorojastech.github.io/LandingPage-TOP)
+[Landing Page](https://landingpage-top.netlify.app/)
