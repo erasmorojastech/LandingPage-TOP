@@ -12,7 +12,7 @@ This project is created using:
 * CSS (Flexbox)
 
 ## Project status
-In progress
+Completed
 
 ## Live Preview
 [Landing Page](https://landingpage-top.netlify.app/)
