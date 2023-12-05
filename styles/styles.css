@@ -187,3 +187,38 @@ figcaption {
   font-size: var(--quote-author-size);
   font-weight: var(--quote-author-weight);
 }
+
+/* Call to action Section */
+.call-to-action {
+  height: 25%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta {
+  width: 75%;
+  height: 50%;
+  border-radius: 5px;
+  background-color: var(--cta-background-color);
+  color: var(--cta-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.cta > div > p {
+  font-size: 1.75rem;
+}
+
+.cta-button {
+  border: 2px solid var(--cta-color);
+  width: 10%;
+  height: 25%;
+}
