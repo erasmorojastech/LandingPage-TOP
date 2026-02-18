@@ -33,14 +33,11 @@ Completed
 [Here](https://erasmorojastech-landingpage-top.netlify.app/)
 
 ## ✨ Features
-- Recipe listings with ingredients and instructions
-- Proper semantic HTML structure
-- Internal linking between recipe pages
-
-- Add responsive design for mobile devices
-- Fine‑tune styling for a more polished look
-- Replace placeholder images with high‑quality, free‑to‑use photos
-- Add subtle animations or hover effects
+- Hero section with a catchy headline, description, and a sign-up button
+- Information section with four cards (each containing an image and subtext)
+- Inspirational quote section with author attribution
+- Call-to-action section with a button
+- Simple footer with copyright notice
 
 ## 🚀 How to Use
 1. Clone the repository
