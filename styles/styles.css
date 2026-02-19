@@ -204,8 +204,29 @@ body {
 
 .footer {
   background-color: var(--dark-grey);
+  color: var(--ghost-white);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   width: 100%;
   height: 100px;
 }
 
+.footer--text {
+  font-size: 16px;
+  color: var(--slate-gray);
+}
+
+.footer--icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer--icons svg {
+  width: 36px;
+  height: auto;
+  fill: var(--slate-gray)
+}
 
