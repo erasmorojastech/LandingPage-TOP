@@ -27,15 +27,20 @@ This project is created using:
 - CSS (Flexbox)
 
 ## 📊 Project Status
-In progress...
+Completed
 
 ## 🔗 Live Preview
-Coming soon...
+[Here](https://erasmorojastech-landingpage-top.netlify.app/)
 
 ## ✨ Features
 - Recipe listings with ingredients and instructions
 - Proper semantic HTML structure
 - Internal linking between recipe pages
+
+- Add responsive design for mobile devices
+- Fine‑tune styling for a more polished look
+- Replace placeholder images with high‑quality, free‑to‑use photos
+- Add subtle animations or hover effects
 
 ## 🚀 How to Use
 1. Clone the repository
