@@ -4,6 +4,7 @@
   --ghost-white: #F9FAF8;
   --light-gray: #E5E7EB;
   --primary-blue: #3882F6;
+  --slate-gray: #6D747D;
 }
 
 body {
@@ -48,6 +49,52 @@ body {
   background-color: var(--dark-grey);
   width: 100%;
   height: 475px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6% 16%;
+}
+
+.hero--info, .hero--img-placeholder {
+  width: 50%;
+  height: 100%;
+}
+
+.hero--info {
+  padding: 0 10% 0 0;
+}
+
+#main-title {
+  font-size: 62px;
+  color: var(--ghost-white);
+  font-weight: 900;
+  line-height: 62px;
+}
+
+.hero--text {
+  font-size: 20px;
+  color: var(--ghost-white);
+}
+
+.hero--img-placeholder {
+  background-color: var(--slate-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--ghost-white);
+  font-size: 16px;
+}
+
+.hero--btn {
+  border: none;
+  margin-top: 12px;
+  background-color: var(--primary-blue);
+  color: var(--ghost-white);
+  width: 150px;
+  height: 36px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .info-section{
